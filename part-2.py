@@ -46,7 +46,7 @@ def digit_match(int1, int2):
 
     if int1 <10 or int2 <10:
         if int1 % 10 == int2 %10 :
-           return 1
+            return 1
         else:
             return 0
     if int1 % 10 == int2%10:
